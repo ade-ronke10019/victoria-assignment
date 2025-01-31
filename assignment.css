@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/** navbar **/
+.going{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    max-width: 100%;
+    gap: 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: brown;
+    cursor: pointer;
+}
+a:hover{
+    color: darkorange;
+}
+.navbutton{
+    background-color: brown;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+}
+.order{
+    background-color: brown;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+}
+.order:hover{
+    background-color: darkorange;
+}
+/**herosection**/
+.a-item{
+    height: 100vh;
+    width: 100%;
+}
+.a-img{
+    height: 100%;
+    padding: 20px;
+    border-radius: 5px;
+}
+h1{
+    font-size: 100px;
+    color: brown;
+}
+.upper{
+    color:coral ;
+    font-size: 50px;
+}
+.container{
+    display: flex;
+}
+.btn-primary{
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+}
